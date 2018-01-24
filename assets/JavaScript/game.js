@@ -26,7 +26,7 @@ function resetGame () {
 }
 
 
-$(".btn").on("click", function(){
+$("img").on("click", function(){
 	console.log($(this).attr('data-value'));
 	score = parseInt($(this).attr('data-value'));
 	userScore += score;
